@@ -5,6 +5,17 @@ This is really not beginner friendly...
 
 For Ubuntu 24.04 only version `v0.39.1` of `hyprland` is supported.
 
+## Utilities
+
+- Status Bar: waybar (requires font-awesome)
+- File Manager: nautilus
+- Terminal: Ghostty
+- ScreenShot: hyprshot (not available on ubuntu)
+- Notification Center: swaync (not available on ubuntu)
+- Lock Screen: hyprlock
+
+Preferred hyprland ecosystem list (https://wiki.hyprland.org/Hypr-Ecosystem/).
+
 ## Reference
 
 - https://wiki.hyprland.org/Nix/Hyprland-on-Home-Manager/
