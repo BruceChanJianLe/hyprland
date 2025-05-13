@@ -1,8 +1,8 @@
 # Hyprland
 
-~~This repository stores some notes about `hyprland` on Ubuntu.~~
-I guess would have to wait until Ubuntu 26.04 to have `hyprland` on board...
-Hence, let's do it on arch instead :D!
+~~This repository stores some notes about `hyprland` on Ubuntu.~~  
+> I guess would have to wait until Ubuntu 26.04 to have `hyprland` on board..
+> Hence, let's do it on arch instead :D!
 
 This is really not beginner friendly...
 
