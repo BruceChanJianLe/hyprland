@@ -1,15 +1,33 @@
 # Hyprland
 
-~~This repository stores some notes about `hyprland` on Ubuntu.~~  
-> I guess would have to wait until Ubuntu 26.04 to have `hyprland` on board..
-> Hence, let's do it on arch instead :D!
+This is really not beginner friendly...Oh well, let's go!
 
-This is really not beginner friendly...
+## Prerequisite (Basics)
 
-For Ubuntu 24.04 only version `v0.39.1` of `hyprland` is supported.
+```bash
+sudo pacman -S \
+    dolphin \                       # KDE File Manager
+    dunst \                         # Customizable and lightweight notification-daemon
+    grim \                          # Screenshot utility for Wayland
+    hyprland \                      # a highly customizable dynamic tiling Wayland compositor
+    kitty \                         # A modern, hackable, featureful, OpenGL-based terminal emulator
+    polkit-kde-agent \              # Daemon providing a polkit authentication UI for KDE
+    qt5-wayland \                   # Provides APIs for Wayland
+    qt6-wayland \                   # Provides APIs for Wayland
+    slurp \                         # Select a region in a Wayland compositor
+    wofi \                          # launcher for wlroots-based wayland compositors
+    xdg-desktop-portal-hyprland     # xdg-desktop-portal backend for hyprland
 
-## Utilities
-❌: not available on ubuntu
+sudo pacman -S \
+    iwd \             # Internet Wireless Daemon
+    openssh \         # SSH protocol implementation for remote login, command execution and file transfer
+    smartmontools \   # Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+    wpa_supplicant \  # A utility providing key negotiation for WPA wireless networks
+    xdg-utils \       # Command line tools that assist applications with a variety of desktop integration tasks
+    wireless_tools    # Tools allowing to manipulate the Wireless Extensions
+```
+
+## Ricing Options
 
 - Status Bar: waybar (requires font-awesome)
 - File Manager: nautilus
