@@ -2,10 +2,17 @@
 
 This is really not beginner friendly...Oh well, let's go!
 
+## TODO
+
+- Setup lock screen
+- Setup waybar (for workspace indication)
+- Setup special workspace for terminal, browser and work
+
 ## Prerequisite (Basics)
 
 ```bash
 sudo pacman -S dolphin dunst grim hyprland kitty polkit-kde-agent qt5-wayland qt6-wayland wofi slurp xdg-desktop-portal-hyprland
+sudo pacman -S brightnessctl wl-clipboard
 sudo pacman -S iwd openssh smartmontools wpa_supplicant xdg-utils wireless_tools
 ```
 
@@ -22,6 +29,8 @@ qt6-wayland                   | Provides APIs for Wayland
 slurp                         | Select a region in a Wayland compositor
 wofi                          | launcher for wlroots-based wayland compositors
 xdg-desktop-portal-hyprland   | xdg-desktop-portal backend for hyprland
+brightnessctl                 | Lightweight brightness control tool
+wl-clipboard                  | Command-line copy/paste utilities for Wayland
 
 Software | Description
 ---|---
