@@ -44,11 +44,12 @@ wireless_tools   | Tools allowing to manipulate the Wireless Extensions
 ## Ricing Options
 
 - Status Bar: waybar (requires font-awesome)
-- File Manager: nautilus
+- File Manager: dolphin / nautilus
 - Terminal: Ghostty
-- ScreenShot: hyprshot ❌
-- Notification Center: swaync ❌
-- Lock Screen: hyprlock ❌
+- ScreenShot: hyprshot
+- Notification Center: swaync
+- Night Light: hyprsunset
+- Lock Screen: wlogout + sway-effects, KIV (hyprlock)
 - Screen Saver: hypridle ❌
 - Wall Paper: hyprpaper ❌
 
